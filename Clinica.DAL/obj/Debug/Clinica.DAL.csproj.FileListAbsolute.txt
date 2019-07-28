@@ -1,0 +1,23 @@
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.dll
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.pdb
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.dll
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.pdb
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.dll
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.pdb
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.dll
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.pdb
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.dll.config
+F:\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.dll.config
+F:\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.dll
+F:\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.pdb
+F:\DCFClinica\Clinica.DAL\obj\Debug\ResolveAssemblyReference.cache
+F:\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.dll
+F:\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.pdb
+I:\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.dll.config
+I:\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.dll
+I:\DCFClinica\Clinica.DAL\bin\Debug\Clinica.DAL.pdb
+I:\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.csprojResolveAssemblyReference.cache
+I:\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.dll
+I:\DCFClinica\Clinica.DAL\obj\Debug\Clinica.DAL.pdb

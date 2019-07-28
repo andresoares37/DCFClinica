@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="wfMenuPrincipal.aspx" title="Home"  description="Pagina principal">
+    <siteMapNode url="" title="Consulta"  description="Administração de Consultas" >
+      <siteMapNode url="wfConsulta.aspx" title="Consulta"  description="Marcar - Cancelar Consultas" />
+    </siteMapNode>
+    <siteMapNode url="" title="Apoio"  description="Cadastros de Apoio" >
+      <siteMapNode url="1.aspx" title="Usuario"  description="Usuário" />
+      <siteMapNode url="2.aspx" title="Especie"  description="Espécie" />
+      <siteMapNode url="3.aspx" title="Raca"  description="Raça" />
+      <siteMapNode url="5.aspx" title="Veterinário"  description="Veterinário" />
+      <siteMapNode url="6.aspx" title="Exames"  description="Médico" />
+      <siteMapNode url="wfListaMedicamento.aspx" title="Medicamentos"  description="Medicamentos" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+

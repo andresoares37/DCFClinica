@@ -1,0 +1,34 @@
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\DCFClinica.dll
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\DCFClinica.pdb
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\Clinica.BLL.dll
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\Clinica.BLL.pdb
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\DCFClinica\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\DCFClinica\obj\Debug\DCFClinica.dll
+C:\Users\Csharp\Documents\Visual Studio 2010\Projects\DCFClinica\DCFClinica\obj\Debug\DCFClinica.pdb
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\DCFClinica.dll
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\DCFClinica.pdb
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\Clinica.BLL.dll
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\Clinica.BLL.pdb
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\obj\Debug\DCFClinica.dll
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\obj\Debug\DCFClinica.pdb
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\Clinica.DAL.dll
+C:\Documents and Settings\CSharp\Meus documentos\Visual Studio 2010\Projects\DCFClinica\DCFClinica\bin\Clinica.DAL.pdb
+F:\DCFClinica\DCFClinica\bin\DCFClinica.dll
+F:\DCFClinica\DCFClinica\bin\DCFClinica.pdb
+F:\DCFClinica\DCFClinica\bin\Clinica.BLL.dll
+F:\DCFClinica\DCFClinica\bin\Clinica.DAL.dll
+F:\DCFClinica\DCFClinica\bin\Clinica.BLL.pdb
+F:\DCFClinica\DCFClinica\bin\Clinica.DAL.pdb
+F:\DCFClinica\DCFClinica\obj\Debug\ResolveAssemblyReference.cache
+F:\DCFClinica\DCFClinica\obj\Debug\DCFClinica.dll
+F:\DCFClinica\DCFClinica\obj\Debug\DCFClinica.pdb
+I:\DCFClinica\DCFClinica\bin\DCFClinica.dll
+I:\DCFClinica\DCFClinica\bin\DCFClinica.pdb
+I:\DCFClinica\DCFClinica\bin\Clinica.BLL.dll
+I:\DCFClinica\DCFClinica\bin\Clinica.DAL.dll
+I:\DCFClinica\DCFClinica\bin\Clinica.BLL.pdb
+I:\DCFClinica\DCFClinica\bin\Clinica.DAL.pdb
+I:\DCFClinica\DCFClinica\obj\Debug\ClinicaView.csprojResolveAssemblyReference.cache
+I:\DCFClinica\DCFClinica\obj\Debug\DCFClinica.dll
+I:\DCFClinica\DCFClinica\obj\Debug\DCFClinica.pdb

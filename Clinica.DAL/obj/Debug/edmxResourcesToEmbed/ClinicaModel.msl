@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Clinica_AndreModelStoreContainer" CdmEntityContainer="Clinica_AndreEntities">
+    <EntitySetMapping Name="tb_Fornecedor">
+      <EntityTypeMapping TypeName="Clinica_AndreModel.tb_Fornecedor">
+        <MappingFragment StoreEntitySet="tb_Fornecedor">
+          <ScalarProperty Name="PK_CODIGO" ColumnName="PK_CODIGO" />
+          <ScalarProperty Name="AT_NOME" ColumnName="AT_NOME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Login">
+      <EntityTypeMapping TypeName="Clinica_AndreModel.tb_Login">
+        <MappingFragment StoreEntitySet="tb_Login">
+          <ScalarProperty Name="PK_ID" ColumnName="PK_ID" />
+          <ScalarProperty Name="AT_Nome" ColumnName="AT_Nome" />
+          <ScalarProperty Name="AT_Senha" ColumnName="AT_Senha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Medicamento">
+      <EntityTypeMapping TypeName="Clinica_AndreModel.tb_Medicamento">
+        <MappingFragment StoreEntitySet="tb_Medicamento">
+          <ScalarProperty Name="PK_CODIGO" ColumnName="PK_CODIGO" />
+          <ScalarProperty Name="AT_NOME" ColumnName="AT_NOME" />
+          <ScalarProperty Name="AT_DESCRICAO" ColumnName="AT_DESCRICAO" />
+          <ScalarProperty Name="AT_POSOLOGIA" ColumnName="AT_POSOLOGIA" />
+          <ScalarProperty Name="FK_FORNECEDOR_ID" ColumnName="FK_FORNECEDOR_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

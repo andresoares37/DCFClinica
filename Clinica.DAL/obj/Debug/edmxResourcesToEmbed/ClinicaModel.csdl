@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Clinica_AndreModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="Clinica_AndreEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_Fornecedor" EntityType="Clinica_AndreModel.tb_Fornecedor" />
+    <EntitySet Name="tb_Login" EntityType="Clinica_AndreModel.tb_Login" />
+    <EntitySet Name="tb_Medicamento" EntityType="Clinica_AndreModel.tb_Medicamento" />
+    <AssociationSet Name="FK_tb_Medicamento_tb_Fornecedor" Association="Clinica_AndreModel.FK_tb_Medicamento_tb_Fornecedor">
+      <End Role="tb_Fornecedor" EntitySet="tb_Fornecedor" />
+      <End Role="tb_Medicamento" EntitySet="tb_Medicamento" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tb_Fornecedor">
+    <Key>
+      <PropertyRef Name="PK_CODIGO" />
+    </Key>
+    <Property Name="PK_CODIGO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AT_NOME" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="tb_Medicamento" Relationship="Clinica_AndreModel.FK_tb_Medicamento_tb_Fornecedor" FromRole="tb_Fornecedor" ToRole="tb_Medicamento" />
+  </EntityType>
+  <EntityType Name="tb_Login">
+    <Key>
+      <PropertyRef Name="PK_ID" />
+    </Key>
+    <Property Name="PK_ID" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="AT_Nome" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="AT_Senha" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_Medicamento">
+    <Key>
+      <PropertyRef Name="PK_CODIGO" />
+    </Key>
+    <Property Name="PK_CODIGO" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="AT_NOME" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="AT_DESCRICAO" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="AT_POSOLOGIA" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="FK_FORNECEDOR_ID" Type="Int32" />
+    <NavigationProperty Name="tb_Fornecedor" Relationship="Clinica_AndreModel.FK_tb_Medicamento_tb_Fornecedor" FromRole="tb_Medicamento" ToRole="tb_Fornecedor" />
+  </EntityType>
+  <Association Name="FK_tb_Medicamento_tb_Fornecedor">
+    <End Role="tb_Fornecedor" Type="Clinica_AndreModel.tb_Fornecedor" Multiplicity="0..1" />
+    <End Role="tb_Medicamento" Type="Clinica_AndreModel.tb_Medicamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Fornecedor">
+        <PropertyRef Name="PK_CODIGO" />
+      </Principal>
+      <Dependent Role="tb_Medicamento">
+        <PropertyRef Name="FK_FORNECEDOR_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

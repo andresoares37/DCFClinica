@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DCFClinica.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>::: Clínica Dog, Cat and Friends :::</title>
+    <link href="css/ClinicaStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table align="center" class="tabelaMaster">
+        <tr class="headerMaster">
+            <td colspan="2">
+                
+            <asp:Label ID="Label1" runat="server" Text="Clinica Dog, Cat and Friends"></asp:Label>
+                
+            </td>
+        </tr>
+        <tr class ="headerMaster2">
+            <td colspan="2">
+
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+
+            </td>
+        </tr>
+        <tr >
+            <td class="TreeviewMaster">
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                    StaticDisplayLevels="3">
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </td>
+            <td class="AreaNavegacaoMaster">
+                
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                
+            </td>
+        </tr>
+        <tr class="RodapeMaster">
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td>
+                            <asp:Label ID="Label2" runat="server" Text="Usuário"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:Label ID="lblUsuarioLogado" runat="server" Text=""></asp:Label>
+                        </td>
+                        <td>                            
+                        </td>
+                        <td>
+                            <asp:Label ID="lblPaginaAtual" runat="server" Text=""></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    </form>
+</body>
+</html>
